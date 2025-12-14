@@ -14,7 +14,8 @@ services:
     restart: always
 
   php:
-    image: php:8.4-fpm-alpine
+    build:
+      dockerfile: ./config/php/Dockerfile
     volumes:
       - ./www:/var/www/html
     networks:
