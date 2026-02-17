@@ -16,6 +16,7 @@ services:
   php:
     build:
       dockerfile: ./config/php/Dockerfile
+    user: "1000:1000"
     volumes:
       - ./www:/var/www/html
     networks:
