@@ -1,4 +1,3 @@
 .idea/
-mysql/
-/www/core/
-/www/public/
+/mysql/
+/www/

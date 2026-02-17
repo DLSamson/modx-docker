@@ -19,6 +19,7 @@ services:
     user: "1000:1000"
     volumes:
       - ./www:/var/www/html
+      - ./config/php/php.ini:/usr/local/etc/php/conf.d/php.ini
     networks:
       - app-network
     restart: always
