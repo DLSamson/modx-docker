@@ -1,4 +1,4 @@
 .idea/
 mysql/
-www/public/
-www/public/core/
+/www/core/
+/www/public/
